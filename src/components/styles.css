@@ -1,0 +1,42 @@
+* {
+    margin: 5px;
+    padding: 0;
+}
+.movie-card {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie-card-item {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-details {
+  flex-grow: 1;
+}
+.movie-card .movie-details .p {
+  width: 100px;
+  height: 100px;
+}
+.linkStyle {
+  background-color: rgb(130, 130, 139);
+  border: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  }
+  .movie-des {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  }
+  
