@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import movieList from './moviesData'; // Import the movies array with a different name
+import movieList from './moviesData';
 
 function MovieDescription() {
   const { id } = useParams();
